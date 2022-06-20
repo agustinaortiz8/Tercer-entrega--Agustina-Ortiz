@@ -1158,9 +1158,9 @@ h1 {
    }
 
 
-@media screen and (min-width: 769px) and (max-width: 1461px) {
+@media screen and (min-width: 769px) and (max-width: 1500px) {
     header {
-        width: 1461px;
+        width: 1500px;
         display: flex;
         justify-items: left;
     }
@@ -1171,7 +1171,7 @@ h1 {
     }
 
     nav {
-        width: 1461px;
+        width: 1500px;
     }
     .ver__mas {
         left: -300px;
@@ -1189,7 +1189,7 @@ h1 {
     .flex-conteiner {
         display: flex;
         gap: 20px;
-        width: 1461px;
+        width: 1500px;
         height: auto;
         position: relative;
         left: 60px;
@@ -1217,7 +1217,7 @@ h1 {
     }
 
     footer {
-        width: 1461px;
+        width: 1500px;
     }
 
     h6 {
@@ -1265,7 +1265,7 @@ h1 {
 
     .titulo1 {
         position: relative;
-        top: 10px;
+        top: 50px;
         left: 350px;
     }
     
@@ -1570,9 +1570,9 @@ h6 {
 
 /*responsive de productos*/
 
-@media screen and (min-width: 769px) and (max-width: 1400px) {
+@media screen and (min-width: 769px) and (max-width: 1500px) {
     header {
-        width: 1400px;
+        width: 1500px;
         display: flex;
         justify-items: left;
     }
@@ -1582,7 +1582,7 @@ h6 {
         left: 600px;
     }
     nav {
-        width: 1400px;
+        width: 1500px;
 }
 
 body {
@@ -1596,7 +1596,7 @@ html {
 .flex-conteiner {
     display: flex;
     gap: 20px;
-    width: 1400px;
+    width: 1500px;
     height:auto;
     position: relative;
     left: 40px;  
@@ -1620,7 +1620,7 @@ aside {
 }
 
 footer {
-    width: 1400px;
+    width: 1500px;
 }
 h6 {
     position: relative;
@@ -1642,9 +1642,9 @@ h6 {
 /*medias de pottah*/
 
 }
-@media screen and (min-width: 769px) and (max-width: 1400px) {
+@media screen and (min-width: 769px) and (max-width: 1500px) {
     header {
-        width: 1400px;
+        width: 1500px;
         display: flex;
         justify-items: left;
     }
@@ -1654,7 +1654,7 @@ h6 {
         left: 600px;
     }
     nav {
-        width: 1400px;
+        width: 1500px;
 }
 
 body {
@@ -1667,7 +1667,7 @@ html {
 
 
 footer {
-    width: 1400px;
+    width: 1500px;
 }
 h6 {
     position: relative;
