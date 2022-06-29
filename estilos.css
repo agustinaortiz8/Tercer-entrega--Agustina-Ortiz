@@ -15,7 +15,6 @@
 body {
   font-family: "Cormorant SC", serif;
   background: white;
-  width: 1450px;
   overflow-x: hidden;
 }
 
@@ -62,7 +61,7 @@ nav {
   list-style: none;
   padding: 0;
   background: #AA8854;
-  width: 100%;
+  width: 1536px;
   margin: 0;
   font-weight: bold;
   text-align: center;
@@ -1122,9 +1121,9 @@ h1 {
     font-size: large;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1461px) {
+@media screen and (min-width: 769px) and (max-width: 1500px) {
   header {
-    width: 1461px;
+    width: 1500px;
     display: flex;
     justify-items: left;
   }
@@ -1135,7 +1134,7 @@ h1 {
   }
 
   nav {
-    width: 1461px;
+    width: 1500px;
   }
 
   .ver__mas {
@@ -1154,7 +1153,7 @@ h1 {
   .flex-conteiner {
     display: flex;
     gap: 20px;
-    width: 1461px;
+    width: 1500px;
     height: auto;
     position: relative;
     left: 60px;
@@ -1181,7 +1180,7 @@ h1 {
   }
 
   footer {
-    width: 1461px;
+    width: 1500px;
   }
 
   h6 {
@@ -1230,7 +1229,7 @@ h1 {
 
   .titulo1 {
     position: relative;
-    top: 10px;
+    top: 50px;
     left: 350px;
   }
 
@@ -1526,9 +1525,9 @@ h1 {
   }
 }
 /*responsive de productos*/
-@media screen and (min-width: 769px) and (max-width: 1400px) {
+@media screen and (min-width: 769px) and (max-width: 1500px) {
   header {
-    width: 1400px;
+    width: 1500px;
     display: flex;
     justify-items: left;
   }
@@ -1539,7 +1538,7 @@ h1 {
   }
 
   nav {
-    width: 1400px;
+    width: 1500px;
   }
 
   body {
@@ -1554,7 +1553,7 @@ h1 {
   .flex-conteiner {
     display: flex;
     gap: 20px;
-    width: 1400px;
+    width: 1500px;
     height: auto;
     position: relative;
     left: 40px;
@@ -1577,7 +1576,7 @@ h1 {
   }
 
   footer {
-    width: 1400px;
+    width: 1500px;
   }
 
   h6 {
@@ -1598,9 +1597,9 @@ h1 {
 
   /*medias de pottah*/
 }
-@media screen and (min-width: 769px) and (max-width: 1400px) {
+@media screen and (min-width: 769px) and (max-width: 1500px) {
   header {
-    width: 1400px;
+    width: 1500px;
     display: flex;
     justify-items: left;
   }
@@ -1611,7 +1610,7 @@ h1 {
   }
 
   nav {
-    width: 1400px;
+    width: 1500px;
   }
 
   body {
@@ -1624,7 +1623,7 @@ h1 {
   }
 
   footer {
-    width: 1400px;
+    width: 1500px;
   }
 
   h6 {
