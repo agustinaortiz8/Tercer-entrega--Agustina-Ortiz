@@ -14,8 +14,11 @@
 
 body {
   font-family: "Cormorant SC", serif;
-  background: white;
-  overflow-x: hidden;
+  background-color: black;
+}
+
+.color_body {
+  background: black;
 }
 
 header {
@@ -60,7 +63,7 @@ nav {
   grid-area: navegacion;
   list-style: none;
   padding: 0;
-  background: #AA8854;
+  background: #bea74b;
   width: 1536px;
   margin: 0;
   font-weight: bold;
@@ -92,7 +95,7 @@ h1 {
 }
 
 .flex-conteiner {
-  background-color: whitesmoke;
+  background-color: #bea74b;
   margin: 30px;
   padding: 20px;
   display: flex;
@@ -103,9 +106,9 @@ h1 {
 }
 
 .flex-item {
-  background-color: #AA8854;
+  background-color: #867416;
   color: black;
-  border: 2px solid white;
+  border: 2px solid #bea74b;
   border-radius: 6px;
 }
 .flex-item img {
@@ -135,7 +138,6 @@ h1 {
 .prod__special2 {
   margin: 5px;
   border-radius: 6px;
-  background: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
   transition: all 400ms ease;
@@ -149,7 +151,7 @@ h1 {
 
 .prod__special3 {
   margin: 5px;
-  border-radius: 6px;
+  border-radius: 4px;
   background: white;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
@@ -165,16 +167,17 @@ h1 {
 .link {
   text-decoration: none;
   color: white;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
-  left: 150px;
-  margin: 10px;
-  padding: 10px;
+  left: 190px;
   border: 2px solid white;
+  margin: 0px;
+  padding: 3px;
+  margin-bottom: 0%;
 }
 
 .link:hover {
-  background: black;
+  background: #C9A836;
   color: white;
 }
 
@@ -269,8 +272,9 @@ footer {
 
 h6 {
   color: black;
+  text-decoration: none;
   position: relative;
-  left: 450px;
+  left: 620px;
   padding: 0%;
   margin: 0%;
 }
@@ -570,7 +574,7 @@ margin: 0%;
 }
 
 /*comienza el css de Form contancto*/
-body {
+.contacto_body {
   background-color: whitesmoke;
 }
 
@@ -952,7 +956,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
@@ -1029,7 +1033,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
@@ -1143,7 +1147,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
@@ -1287,7 +1291,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
@@ -1440,7 +1444,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
@@ -1543,7 +1547,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
@@ -1615,7 +1619,7 @@ h1 {
 
   body {
     width: 100%;
-    overflow-x: hidden;
+    background: black;
   }
 
   html {
