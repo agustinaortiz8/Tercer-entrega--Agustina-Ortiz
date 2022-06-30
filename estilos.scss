@@ -34,16 +34,20 @@ header {
 }
 
 .logo__header {
-    display: flex;
-    justify-items: center;
-    margin: 0;
-
+    position: relative;
+    left: 680px;
+    padding: 20px;
 }
 
 .img__banner {
     margin-top: 20px;
     height: 600px;
     width: 1420px;
+}
+
+h1 {
+    background-color: white;
+    color: white;
 }
 
 .ver__mas {
@@ -214,7 +218,8 @@ section {
 .nuestros__productos {
     width: 600px;
     justify-content: center;
-    background: beige;
+    background: #867416;
+    border: 6px solid #AA8854;
     text-align: center;
     padding: 80px;
     margin: 100px;
@@ -224,7 +229,7 @@ section {
 h2 {
     display: flex;
     position: relative;
-    left: 130px;
+    left: 250px;
     top: 150px;
 }
 
@@ -240,7 +245,7 @@ aside {
     color: black;
     text-align: center;
     font-size: large;
-    background: beige;
+    background: #bea74b;
     border: 1px solid #AA8854;
     width: 500px;
     height: 200px;
@@ -601,7 +606,7 @@ margin: 0%;
 
 .logo__contacto {
     position: relative;
-    left: 550px;
+    left: 650px;
     margin: 0%;
 
 }
@@ -624,13 +629,13 @@ margin: 0%;
     margin: 40px;
     justify-content: center;
     position: relative;
-    left: 530px;
+    left: 580px;
 }
 .titulo__form {
     text-align: center;
     font-size: xx-large;
     position: relative;
-    left: 530px;
+    left: 580px;
     top: -50px;
 }
 
@@ -660,14 +665,14 @@ margin: 0%;
 .tittle__nosotras {
     font-size: 30px;
     position: relative;
-    left: 150px;
-    bottom: 50px;
+    left: 700px;
+    top: -50px;
 }
 .tittle__nosotras2 {
     font-size: 30px;
     position: relative;
-    left: 150px;
-    bottom: 50px;
+    left: 700px;
+    top: -50px;
 }
 
 .conteiner__nosotras {
@@ -698,11 +703,11 @@ margin: 0%;
     top: -20px;
 }
 
-.logo__header {
+.logo__pottah {
     margin: 20px;
     padding: 20px;
     position: relative;
-    left: 600px;
+    left: 680px;
 }
 
 h1 {
@@ -961,6 +966,50 @@ h1 {
 
 }
 
+.titulo1 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.titulo2 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.titulo3 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.titulo4 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.titulo5 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.titulo6 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+.titulo7 {
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+
+
 @media screen and (max-width: 480px) {
     header {
         width: 480px;
@@ -1011,6 +1060,7 @@ h1 {
     h2 {
         position: relative;
         top: 100px;
+        left:110px;
     }
 
     aside {
@@ -1307,7 +1357,11 @@ h1 {
         left: 350px;
     }
     
-
+    .titulo__form {
+        position: relative;
+        top: 5px;
+        left: 500px;
+    }
   
 
 }
@@ -1480,6 +1534,10 @@ h6 {
         width: 768px;
 }
 
+.logo__pottah {
+    left: 300px;
+}
+
 body {
     width: 100%;
     background: black;
@@ -1570,6 +1628,7 @@ h6 {
 
 }
 
+
 /*responsive de productos*/
 
 @media screen and (min-width: 769px) and (max-width: 1500px) {
@@ -1641,6 +1700,8 @@ h6 {
     height: auto;
    
 }
+
+
 /*medias de pottah*/
 
 }
@@ -1688,6 +1749,8 @@ h6 {
     height: auto;
    
 }
+
+
 
 
 }
